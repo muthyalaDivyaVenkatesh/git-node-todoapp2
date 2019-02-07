@@ -14,13 +14,17 @@ console.log('connected to mongodb server');
 // },(err)=> {
 //   console.log('Unable to find the todos',err);
 // });
-db.collection('Users').find({name:'M.D.Venkatesh'}).toArray().then((name) => {
-
-  console.log(JSON.stringify(name,undefined,2));
-},(err)=> {
-  console.log('Unable to find the todos',err);
-});
-
+// db.collection('Users').find({name:'M.D.Venkatesh'}).toArray().then((name) => {
+//
+//   console.log(JSON.stringify(name,undefined,2));
+// },(err)=> {
+//   console.log('Unable to find the todos',err);
+// });
+// db.collection('Users').find({name:'M.D.Venkatesh'}).toArray().then((name) => {
+//
+//   console.log(JSON.stringify(name,undefined,2));
+// },(err)=> {
+//   console.log('Unable to find the todos',err);
 
 // db.close();
 })
